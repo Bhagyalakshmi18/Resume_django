@@ -1,0 +1,25 @@
+{% extends "web_app/base.html" %}
+{% block content %}
+    <h1>Uploaded PDFS</h1>
+
+    <p>
+        <a href="{% url 'upload_pdf' %}" class="btn btn-primary">Upload Resumes</a>
+    </p>
+    
+    <table class="table mb-0">
+        <thead>
+            <tr>
+                <th>Job Description</th>
+                <th>PDF</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pdf in uploadpdf %}
+                <tr>
+                    <td>{{ pdf.jobrole }}</td>
+                    <td>{{ pdf.resumes }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock content %}
