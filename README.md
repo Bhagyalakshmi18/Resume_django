@@ -27,7 +27,8 @@ The only command to run the project is:
 
 ### Preview of Application
 
+__Home Page__
 ![Home Page](https://github.com/Bhagyalakshmi18/Resume_django/blob/master/images/Home%20page.png)
 
-
+__Top 10 Candidates__
 ![Top 10 Candidates](https://github.com/Bhagyalakshmi18/Resume_django/blob/master/images/Top%2010%20candidates.png)
