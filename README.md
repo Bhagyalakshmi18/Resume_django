@@ -26,3 +26,8 @@ The only command to run the project is:
     python manage.py runserver
 
 ### Preview of Application
+
+![Home Page](https://github.com/Bhagyalakshmi18/Resume_django/blob/master/images/Home%20page.png)
+
+
+![Top 10 Candidates](https://github.com/Bhagyalakshmi18/Resume_django/blob/master/images/Top%2010%20candidates.png)
