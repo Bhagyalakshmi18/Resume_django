@@ -9,15 +9,12 @@ class Post(models.Model):
         return self.title
 
 class UploadPdf(models.Model):
-    jobrole = models.TextField()
+#     jobrole = models.CharField(max_length=100)
     resumes = models.FileField(upload_to='resumes/', blank=True, null=True)
         
-    def __str__(self):
-        return self.jobrole
+#     def __str__(self):
+#         return self.jobrole
     
+class UploadKeyword(models.Model):
+    keyword = models.FileField(upload_to='keyword/', blank=True, null=True)
     
-# from django import forms
-
-# class FileFieldForm(forms.Form):
-#     file_field = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
-#     
