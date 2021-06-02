@@ -58,7 +58,7 @@ sqlparse==0.3.1
 testpath==0.4.4
 tqdm==4.43.0
 traitlets==4.3.3
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.1.8
 webdriver-manager==2.3.0
 webencodings==0.5.1
